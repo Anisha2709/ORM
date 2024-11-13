@@ -23,6 +23,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+'''
 models.py : 
 
 from django.db import models
@@ -42,7 +43,7 @@ admin.py :
 from django.contrib import admin
 from .models import Bank,BankAdmin
 admin.site.register(Bank,BankAdmin)
-
+'''
 ## OUTPUT
 
 ![image](https://github.com/user-attachments/assets/06492f97-6f01-42ca-a90f-5f8bd1668e1d)
